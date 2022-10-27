@@ -1,0 +1,571 @@
+/* roboto-condensed-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Sue+Ellen+Francisco&display=swap');
+
+
+.body{
+    background-color: rgb(255,253,248);
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+}
+
+.carousel-indicators{
+    margin-bottom: 0rem; 
+}
+
+.amenities-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(134,191,210);
+    color: white; 
+    border-radius: 0rem;
+}
+
+.btn:hover{
+    background-color: rgb(255,253,248);
+    color: rgb(49, 41, 31);
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Roboto Condensed;
+    font-size: 1.5rem;
+    text-align:left; 
+    line-height: 3rem; 
+    list-style-type: none;
+    color: rgb(49, 41, 31);
+}
+
+h5{
+    color: rgb(49, 41, 31);
+    text-align: center;
+    font-family: "Roboto Condensed";
+    font-size: 1.25rem;
+}
+
+h4{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.inquiry-type{
+    font-family:"Roboto Condensed";
+}
+
+.footy{
+    background-color: rgb(255,253,248);
+    height: 10vh;
+    align-items: center;
+    display: flex;
+}
+
+.navbar{
+    background-color: rgb(49, 41, 31);
+    width:100vw;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-stretch: 250%;
+}
+
+.navbar-item:hover{
+    font-size: 1.5rem;
+}
+
+.navbar-nav{
+    text-align: end;
+    max-width: fit-content;
+}
+
+.masthead{
+    background-size: cover; 
+    width: 100vw;  
+    height: 80vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    align-items: center;
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2); 
+}
+
+.square-box{
+    max-width: 40vw;
+    min-height: fit-content;
+    padding-top: 2rem;
+    font-weight: bolder;
+}
+
+.subheading{
+    font-family: "Raleway";
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(49, 41, 31);
+}
+
+.amenities{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:100vw;
+}
+
+.amenities-image-holder{
+    width: 50vw;
+}
+
+.slide{
+    width: 50vw;
+}
+
+.amenities-content{
+    padding-top: 0; 
+    width: 50vw;
+}
+
+.location-contact{
+    padding-top: 2rem; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    display:flex;
+}
+
+.location-image{
+    width: 50vw; 
+    height: auto; 
+    float:right; 
+    border: 1rem solid rgb(49, 41, 31);
+    align-items: center; 
+}
+
+.location{
+    justify-content: space-evenly;
+}
+
+.location-content-holder{
+    align-items:flex-start;
+    float: left; 
+    width: 42vw;
+}
+
+.address{
+    font-family: "Roboto Condensed"; 
+    color:rgb(49, 41, 31); 
+    font-size:1.25rem;  
+    text-align: left;
+    width:23vw; 
+    padding-left: 1rem; 
+}
+
+.contact-us-content{
+    width: 50vw;
+}
+
+.contact-us-form{
+    margin-top: 2rem;
+    display: flex; 
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.form-holder{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+
+.contact-holder{
+    display:flex;
+    flex-direction: row;
+}
+
+.row-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-style{
+    display: flex; 
+    flex-direction: column; 
+    width: 20vw;
+}
+
+.message{
+    width: 44vw;
+}
+
+.form-label{
+    font-family: "Roboto Condensed";
+    font-size: 1.25rem;
+    font-style: normal;
+    color: rgb(255,253,248);
+    margin-bottom: 0rem;
+}
+
+.inp{
+    font-family: "Roboto Condensed";
+    font-size: 1.1rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(255,253,248);
+    background-color: rgb(49, 41, 31);
+    margin-bottom: 0.75rem;
+}
+
+.slide{
+    width: 40vw;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.overview-child-1{
+    color:rgba(49, 42, 31, 0.8);
+    font-size: 2rem;
+    width:50vw;
+}
+
+.overview-child-2{
+    color: rgb(206, 193, 171); 
+    font-size:1.25rem; 
+    width:60vw;
+}
+
+.contact-holder{
+    margin-top: 2rem;
+}
+
+
+@media (max-width: 850px){
+    .subheading{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .list-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:Roboto Condensed;
+        font-size: 1.25rem;
+        text-align:left; 
+        line-height: 3rem; 
+        list-style-type: none;
+        color: rgb(49, 41, 31);
+    }
+
+    .masthead{
+        width: 100vw; 
+    }
+    .square-box{
+        width:100vw;
+        min-height: fit-content;
+    }
+
+    .amenities-image-holder{
+        width: 100vw;
+    }
+
+    .slide{
+        width: 80vw;
+    }
+
+    .amenities{
+        display:flex;
+        flex-direction: column;
+        width:100vw;
+    }
+
+    .amenities-content{
+        width:100vw;
+    }
+
+    .location-content-holder{
+        float: center; 
+        padding-top: 0; 
+        margin-top: 0; 
+        width: 80vw;
+    }
+
+    .location-image{
+        margin-top: 0; 
+        width: 80vw; 
+        height: auto; 
+        border: 0.5rem solid rgb(49, 41, 31);
+    }
+
+    .address{
+        width: 80vw; 
+        text-align: center;
+    }
+
+    .location{
+        flex-wrap: wrap;  
+    }
+
+    .contact-us-content{
+        flex-wrap: wrap; 
+        margin-top: 2rem;
+        width:100vw;
+    }
+
+    .contact-us-form{
+        margin-top: 0rem;
+        flex-wrap: wrap;
+        width:100vw;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        padding-bottom: 2rem;
+    }
+
+    .contact-holder{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .row-1{
+        display:flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .row-style{
+        display: flex; 
+        flex-direction: column; 
+        width: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .message{
+        width: 80vw;
+    }
+    
+    .inp{
+        width: 80vw;
+    }
+
+    .iqry{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 375px){
+    .masthead{
+        min-height: 30vh
+    }
+
+    .subheading{
+        font-size:2.5rem;
+    }
+
+    .address{
+        font-size: 1rem;
+    }
+
+    .square-box{
+        min-width:100vw;
+        min-height: fit-content;
+    }
+
+    .amenities-image-holder{
+        min-width: 100vw;
+    }
+
+    .slide{
+        width: 80vw;
+    }
+
+    .location-content-holder{
+        float: center; 
+        width: 80vw;
+    }
+
+    .location-image{
+        width: 80vw; 
+        height: auto; 
+        border: 0.5rem solid rgb(49, 41, 31);
+    }
+
+    .location{
+        flex-wrap: wrap; 
+    }
+
+    .contact-us-content{
+        margin-top: 1.5rem;
+        width:100vw;
+    }
+
+    .form-holder{
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .contact-us-form{
+        margin-top: 0rem;
+        flex-wrap: wrap;
+        width:100vw;
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 2rem;
+    }
+
+    .contact-holder{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .row-1{
+        display:flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .row-style{
+        display: flex; 
+        flex-direction: column; 
+        width: 80vw;
+    }
+
+    .message{
+        width: 80vw;
+    }
+
+    .form-label{
+        font-size: 1rem;
+    }
+
+    .inp{
+        font-size: 0.75rem;
+    }
+
+}
+
+@media(min-width: 2000px){
+    .masthead{
+        height: 40vh;
+    }
+
+    .navbar{
+        font-size: 3rem;
+    }
+
+    .overview-child-1{
+        font-size:3rem;
+        width:40vw;
+    }
+
+    .overview-child-2{
+        font-size:2rem;
+        width:50vw;
+    }
+
+
+    .navbar-brand{
+        font-size: 3.5rem;
+    }
+
+    .location-content-holder{
+        float: center; 
+        margin-top: 0; 
+    }
+
+    .contact-us-form{
+        margin-top: 2rem;
+    }
+
+    .address{
+        width: 20vw;
+        padding-left: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .subheading{
+        font-size: 10rem;
+    }
+
+    .amenities-content{
+        height:25vh;
+    }
+
+    .list-items{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-control-prev-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .carousel-control-next-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .location-contact{
+        padding-top: 4rem;
+    }
+
+    .contact-holder{
+        margin-top: 4rem;
+    }
+
+    .form-label{
+        font-size:2rem;
+    }
+
+    .inp{
+        font-size:1.5rem;
+    }
+
+    h4{
+        font-size: 3rem;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+}
+
